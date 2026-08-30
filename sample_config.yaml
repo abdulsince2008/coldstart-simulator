@@ -1,0 +1,10 @@
+provider: aws
+runtime: python3.11
+memory_mb: 512
+avg_duration_ms: 200
+monthly_invocations: 10000000
+traffic_pattern: bursty
+has_heavy_dependencies: true
+uses_vpc: false
+provisioned_concurrency: 0
+min_instances: 0
